@@ -1,6 +1,10 @@
-justify content: moves things horizontally 
-flex-start: same as not doing anything, the default
-flex-end: moves the content to the opposite side on the horizontal plain
-space between: put space between the content
-space around: evenly spaces the content between the content and the border
-space evenly: does both
+JUSTIFY CONTENT NOTES
+
+<justify content> : moves content horizontally.
+<flex start> : same as not doing anything, the default.
+<flex end> : moves the content to the opposite side on the horizontal plain.
+<space between> : put space between the content.
+<space around> : evenly spaces the content between the content and the border.
+<space evenly> : does both.
+<flex direction> : arranges content in either column format or row format.
+<
