@@ -1,5 +1,6 @@
-JUSTIFY CONTENT NOTES
+                                    FLEX BOX NOTES:
 
+JUSTIFY CONTENT NOTES:
 <justify content> : moves content horizontally.
 <flex start> : same as not doing anything, the default.
 <flex end> : moves the content to the opposite side on the horizontal plain.
@@ -7,4 +8,19 @@ JUSTIFY CONTENT NOTES
 <space around> : evenly spaces the content between the content and the border.
 <space evenly> : does both.
 <flex direction> : arranges content in either column format or row format.
-<
+
+
+<flex basis> : used without needing to put "diplay: flex;" first. say you have three boxes
+               with one being flex-basis: 400px; another one being flex-basis: 200px; and the 
+               last being flex-basis: 100px;. if you shrink the screen they wont always stay 
+               at that pixel count but will keep the same ratio. So, box one will always be 4x 
+               the size of box three and 2x the size of box two.
+
+<flex grow> : similar to "flex-basis"  but instead doesn't work with pixels. As you stretch the 
+              screen the flex boxes will grow. using the same boxes as above. Box one having the 
+              value of 4 will grow 4x faster than box three with the value of 1 and twice as fast 
+              as box two with the value of 2.
+
+<flex shrink> : works the same as "flex-grow" but goes in the opposite direction. Only difference is 
+                that it needs a baseline to work with. You can use "flex-basis" with it.
+
