@@ -1,0 +1,5 @@
+justify content: moves things horizontally 
+flex-start: same as not doing anything, the default
+flex-end: moves the content to the opposite side on the horizontal plain
+space between: put space between the content
+space around: 
