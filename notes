@@ -24,3 +24,5 @@ JUSTIFY CONTENT NOTES:
 <flex shrink> : works the same as "flex-grow" but goes in the opposite direction. Only difference is 
                 that it needs a baseline to work with. You can use "flex-basis" with it.
 
+<order> : can move around different divs into whatever order you want.
+
